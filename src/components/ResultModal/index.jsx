@@ -7,7 +7,7 @@ const ResultModal = ({ isGameOver, winner, startNewGameclicked }) => {
     'open-modal': isGameOver,
   });
 
-  const message = winner ? `Winner is ${winner}` : 'This is a toe';
+  const message = winner ? `Winner is ${winner}` : 'It is a tie';
 
   return (
     <div id="modal-overlay" className={handleModal}>
